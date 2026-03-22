@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/witches-forest/static/css/main.9e0d67c5.css",
+    "main.js": "/witches-forest/static/js/main.8015b912.js",
+    "static/js/453.6aac5ab6.chunk.js": "/witches-forest/static/js/453.6aac5ab6.chunk.js",
+    "index.html": "/witches-forest/index.html",
+    "main.9e0d67c5.css.map": "/witches-forest/static/css/main.9e0d67c5.css.map",
+    "main.8015b912.js.map": "/witches-forest/static/js/main.8015b912.js.map",
+    "453.6aac5ab6.chunk.js.map": "/witches-forest/static/js/453.6aac5ab6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9e0d67c5.css",
+    "static/js/main.8015b912.js"
+  ]
+}
