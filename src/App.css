@@ -1,0 +1,111 @@
+button {
+  cursor: pointer;
+  background-color: #5a2d82;
+  color: white;
+  min-width: 60px;
+  margin: 2px;
+  border-radius: 5px;
+  padding: 6px;
+}
+
+.App {
+  text-align: center;
+  background-color: #1a0a2e;
+  color: #e8d5f5;
+  min-height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  direction: rtl;
+
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.Title {
+  z-index: 100;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 100px);
+  grid-auto-rows: 150px;
+  gap: 24px;
+  margin: 10px;
+}
+
+.playing-cards {
+  display: flex;
+  flex-direction: row;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin 3s infinite linear;
+  }
+}
+
+
+.App-header {
+  background-color: #1a0a2e;
+  color: #e8d5f5;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+}
+
+.App-link {
+  color: #c084fc;
+}
+
+@keyframes App-logo-spin {
+  0% {
+    transform: rotate(-15deg);
+  }
+  50% {
+    transform: rotate(15deg);
+  }
+  100% {
+    transform: rotate(-15deg);
+  }
+}
+
+.buttons-container {
+  display:flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.input-container {
+  margin: 20px 0;
+}
+
+.input-label {
+  display: block;
+  margin: 8px;
+  font-weight: bold;
+}
+
+.input-box {
+  width: 100px;
+  padding: 8px;
+  border: 1px solid #7c3aed;
+  border-radius: 4px;
+  font-size: 16px;
+  background-color: #2d1b4e;
+  color: #e8d5f5;
+}
+
+
+.EnterButton {
+  margin: 30px;
+}
